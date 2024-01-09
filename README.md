@@ -1,8 +1,9 @@
-# React + Vite
+# Just Practicing React
+The project is created with Vite. You can run it doing **"npm install"** and then **"npm run dev"**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Functional Components
+A component is the base of React and they can be defined as **classes** or **functions**.
 
-Currently, two official plugins are available:
+We can defined a Function Component like this:
+![Basic Component](/public/examples/component.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
