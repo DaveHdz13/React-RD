@@ -1,14 +1,14 @@
 import React from 'react'
 import './card.css'
-import ship01 from '../../assets/img/stability.png'
 
-function Card() {
+function Card(props) {
+  console.log(props);
   return (
     <div className='card-container'>
-      <img src={ship01} alt="image" />
+      <img src={props.image} alt="image" />
       <div className='text-container'>
-        <h1>Title</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint dolorem, minima sit asperiores unde odio illum dignissimos voluptas, ipsum amet pariatur doloribus placeat accusantium ex ullam doloremque dolor labore?</p>
+        <h1>{props.title}</h1>
+        <p>{props.description}</p>
       </div>
       <div className='links-container'>
         <a href="#">Share</a>

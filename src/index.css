@@ -7,4 +7,5 @@ body, html {
   box-sizing: border-box;
   background-color: #353535;
   color: #eeeeee;
+  font-family: monospace;
 }
