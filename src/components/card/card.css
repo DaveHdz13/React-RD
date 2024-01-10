@@ -27,3 +27,10 @@
   opacity: 0.2;
   pointer-events: none;
 }
+
+.black {
+  color: rgb(0, 0, 0);
+}
+.green {
+  color: rgb(30, 255, 30);
+}

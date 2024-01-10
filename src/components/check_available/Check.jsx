@@ -2,10 +2,10 @@ import React from 'react'
 
 function Check(props) {
   if (props.disable) {
-    return <span>Not Available</span>
+    return <span className='black'>Not Available</span>
   }
   return (
-    <span>Available</span>
+    <span className='green'>Available</span>
   )
 }
 
